@@ -97,7 +97,16 @@ export const DEFAULT_IGNORES = [
   // Our output file
   "codebase.md",
   // Turborepo cache folder
-  ".turbo"
+  ".turbo",
+  // Idea config folder
+  ".idea",
+  ".editorconfig",
+  ".vscode",
+  ".flattened-pom.xml",
+  ".github",
+  ".mvn",
+  "*.iml",
+  "*.so",
 ];
 
 export function removeWhitespace(val: string): string {
